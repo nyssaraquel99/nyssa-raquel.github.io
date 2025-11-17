@@ -9,6 +9,7 @@ body {
 #bottom {
   text-align: center;
   background-color: DarkSlateGray;
+  opacity=0.3;
   color: HoneyDew;
 }
 
@@ -48,3 +49,4 @@ a:hover {
 .detail {
   color: LimeGreen;
 }
+
