@@ -29,13 +29,13 @@ body {
 /* Headings */
 h1, h2, h3 {
   text-align: center;
-  color: HoneyDew;
+  color: White;
   text-shadow: 0 0 6px PaleGreen;
   letter-spacing: 3px;
 }
 h1 {
   font-size: 56px;
-  text-transform: capitalize;
+  text-transform: uppercase;
 }
 h2 {
   font-size: 32px;
@@ -46,7 +46,7 @@ h3 {
 
 /* Links */
 a {
-  color: HoneyDew;
+  color: White;
   text-decoration: none;
 }
 a:hover {
@@ -59,6 +59,7 @@ a:hover {
 }
 
 .detail {
-  letter-spacing: 3px
+  letter-spacing: 2px
 }
+
 
