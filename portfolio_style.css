@@ -1,59 +1,44 @@
+/* Base */
 body {
-}
-
-#top {
-  text-align: center;
-  background-color: DarkSlateGray;
-  color: HoneyDew
-}
-
-#top-menu {
-  text-align: center;
-  padding-top: 20px;
-  padding-botom: 20px;
-}
-
-#main {
   background-color: Black;
+  color: HoneyDew;
 }
 
+/* Top and bottom bars */
+#top,
 #bottom {
   text-align: center;
   background-color: DarkSlateGray;
   color: HoneyDew;
 }
 
+/* Menus */
+#top-menu,
 #bottom-menu {
   text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
+/* Main content */
+#main {
+  background-color: Black;
+  color: HoneyDew
+}
+
+/* Headings */
 h1, h2, h3 {
   text-align: center;
   color: PaleGreen
 }
 
-h1 {
-}
-
-h2 {
-}
-
-h3 {
-}
-
-p {
-  color: HoneyDew;
-}
-
-ul {
-  color: HoneyDew;
-}
-
+/* Links */
 a {
   color: LimeGreen;
   text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
 }
 
 .center {
@@ -62,5 +47,4 @@ a {
 
 .detail {
   color: LimeGreen;
-
 }
