@@ -2,7 +2,7 @@
 body {
   background-color: Black;
   color: HoneyDew;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 /* Top and bottom bars */
@@ -30,25 +30,27 @@ body {
 h1, h2, h3 {
   text-align: center;
   color: HoneyDew;
-  text-shadow: 0 0 3px PaleGreen;
+  text-shadow: 0 0 6px PaleGreen;
   letter-spacing: 3px;
 }
 h1 {
   font-size: 56px;
+  text-transform: capitalize;
 }
 h2 {
-  font-size: 40px
+  font-size: 32px;
 }
 h3 {
-  font-size:32px;
+  font-size:24px;
 }
 
 /* Links */
 a {
-  color: LimeGreen;
+  color: HoneyDew;
   text-decoration: none;
 }
 a:hover {
+  color: PaleGreen;
   text-decoration: underline;
 }
 
@@ -57,4 +59,6 @@ a:hover {
 }
 
 .detail {
+  letter-spacing: 3px
 }
+
