@@ -35,7 +35,7 @@ body {
   font-family: "Lucida Console","Monaco", monospace;
   white-space: pre;
   margin: auto;
-  line-height:10px;
+  line-height:5px;
   padding-top: 20px;
 }
 
@@ -77,5 +77,6 @@ a:hover {
 .detail {
   letter-spacing: 2px;
 }
+
 
 
