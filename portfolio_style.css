@@ -2,14 +2,13 @@
 body {
   background-color: Black;
   color: HoneyDew;
+  font-size: 20px;
 }
 
 /* Top and bottom bars */
 #top,
 #bottom {
   text-align: center;
-  background-color: DarkSlateGray;
-  opacity=0.3;
   color: HoneyDew;
 }
 
@@ -24,13 +23,24 @@ body {
 /* Main content */
 #main {
   background-color: Black;
-  color: HoneyDew
+  color: HoneyDew;
 }
 
 /* Headings */
 h1, h2, h3 {
   text-align: center;
-  color: PaleGreen
+  color: HoneyDew;
+  text-shadow: 0 0 3px PaleGreen;
+  letter-spacing: 3px;
+}
+h1 {
+  font-size: 56px;
+}
+h2 {
+  font-size: 40px
+}
+h3 {
+  font-size:32px;
 }
 
 /* Links */
@@ -47,6 +57,4 @@ a:hover {
 }
 
 .detail {
-  color: LimeGreen;
 }
-
